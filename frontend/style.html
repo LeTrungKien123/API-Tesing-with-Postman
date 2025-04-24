@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản Lý Rau Củ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quản Lý Rau Củ Quả</h1>
+
+    <!-- Form tìm kiếm -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="🔍 Tìm tên rau củ...">
+    </div>
+
+    <!-- Form thêm rau -->
+    <div class="form-box">
+      <h2>Thêm</h2>
+      <input type="text" id="name" placeholder="Tên">
+      <input type="number" id="price" placeholder="Giá">
+      <input type="text" id="group" placeholder="Thuộc nhóm">
+      <input type="text" id="description" placeholder="Mô tả">
+      <button onclick="addVegetable()">Thêm</button>
+    </div>
+
+    <!-- Danh sách rau -->
+    <div id="vegetableList" class="list-box">
+      <!-- Các sản phẩm sẽ được render tại đây -->
+    </div>
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+.form-box {
+  margin-bottom: 30px;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-box button:hover {
+  background-color: #3498db;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.veg-card {
+  border: 1px solid #ddd;
+  border-left: 6px solid #27ae60;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.veg-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.veg-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.card-actions {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.card-actions button {
+  margin-left: 5px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card-actions .edit {
+  background-color: #f39c12;
+  color: white;
+}
+
+.card-actions .delete {
+  background-color: #e74c3c;
+  color: white;
+}
